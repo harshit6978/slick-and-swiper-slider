@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <title>Document</title>
+
+    <style>
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        body {
+          background: #fff;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #000;
+          margin: 0;
+          padding: 0;
+        }
+    
+        html,
+        body {
+          position: relative;
+          height: 100%;
+        }
+    
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .swiper {
+          width: 240px;
+          height: 320px;
+        }
+    
+        .swiper-slide {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 18px;
+          font-size: 22px;
+          font-weight: bold;
+          color: #fff;
+        }
+        h1{
+          display: inline-block;
+        }
+       
+        img{
+          width: 100%;
+          object-fit: cover;
+          background-size: cover;
+        }
+      </style>
+</head>
+<body>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/pexels-christian-1164778.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/pexels-brady-knoll-3221163.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/pexels-labskiii-14299596.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/pexels-keith-lobo-10902414.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/pexels-yurii-hlei-1545743.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/pexels-zsolt-joo-2882234.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/pexels-rishtih-reddy-10701887.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/pexels-jonathan-cooper-9762338.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/pexels-kamshotthat-3457780.jpg" alt=""></div>
+        </div>
+      </div>
+
+      <h1>swiper slider</h1>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "cards",
+          grabCursor: true,
+        });
+      </script>
+</body>
+</html>

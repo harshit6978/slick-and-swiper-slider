@@ -1,0 +1,13 @@
+img{
+    width: 100%;
+   background-size: cover;
+}
+.box{
+    width: 50%;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
